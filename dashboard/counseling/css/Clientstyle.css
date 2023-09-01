@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+  background: linear-gradient(90deg, #2B4177, #85CC6B);
+  font-family: Trebuchet MS;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #38444d;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+	background: linear-gradient(to left,#2aca9d, #21884e);
+	color: white;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.maincont{
+	color: white;
+	margin: 50px;
+	font-family: Trebuchet MS;
+}
+.uploaderBtn{max-width: 324px; background: #2aa582;padding: 17px;font-size: 14px;border-radius: 11px;box-shadow: 2px 2px 33px 3px #0000006b;}
+.submitBtn {
+  background: #2aa582;
+  padding: 17px;
+  font-size: 16px;
+  border-radius: 7px;
+  color: white;
+  text-transform: capitalize;
+  box-shadow: 2px 2px 33px 3px #0000006b;
+  font-weight: bold;
+  font-family: Trebuchet MS;
+  border: none;
+}
+.inputText{
+  border-radius: 8px;
+  border: none;
+  height: 37px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  width: 339px;
+  padding-left: 18px;
+}
+#framePrev {
+  float: right;
+  position: inherit;
+  margin-top: -426px;
+  width: 650px;
+  height: 500px;
+  border: none;
+}
+		
+		
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background: white;
+  color: black;
+  font-size: 15px;
+ }
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  font-size: 15px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+  font-size: 15px;
+}
+
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s; 
+}
+
+.button1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#queryInput {
+	width: 49%;
+	padding: 9px;
+	border: none;
+	margin-bottom: 22px;
+	color: gray;
+	font-size: 18px;
+}
+#queryGo {
+	color: white;
+	padding-top: 15px;
+	border: none;
+	background: #2252bf;
+	text-transform: uppercase;
+	margin-top: 2px;
+	padding-bottom: 11px;
+	padding-left: 17px;
+	padding-right: 17px;
+	font-weight: bold;
+	font-family: Calibri;
+	cursor: pointer;
+}
+#queryGo:hover{
+	background: #3c558c;
+	
+}
+
+
+.notific{
+	background: #00000099;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	z-index: 999;
+}
+.yesnodialogue {
+	position: fixed;
+	top: 34%;
+	left: 34%;
+	border-radius: 9px;
+	height: 108px;
+	width: 327px;
+	z-index: 999;
+	padding: 59px;
+	background: white;
+}
+
+#confirmdelete{
+	height:60px; border: none; border-radius: 8px; width: 150px; background: #4CAF50; color: white; font-weight: bold;
+}
+#notnow{
+	height:60px; border: none; border-radius: 8px; width: 150px; background: #f44336; color: white; font-weight: bold;
+}
