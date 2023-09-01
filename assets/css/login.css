@@ -1,0 +1,79 @@
+html{
+	font-family: Trebuchet MS;
+}
+
+.maincont{
+    scale: 1.8;
+    margin-top: 190px;
+}
+
+.alert {
+	padding: 13px;
+	color: white;
+	width: 52%;
+	margin-top: 10px;
+}
+.closebtn {
+	margin-left: 15px;
+	color: white;
+	font-weight: bold;
+	float: right;
+	font-size: 22px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.closebtn:hover {
+	color: black;
+}
+
+
+
+.buttonSbmt {
+    margin-top: 5px;
+    padding: 9px;
+    border-radius: 5px;
+    border: none;
+    background: #ff6a00;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    color: white;
+    transition: 0.08s;
+    width: 100px;
+    border-bottom: 5px solid orange;
+}
+
+.buttonSbmt:disabled {
+	border-bottom: 2px solid #bd0f32;
+	color: white;
+}
+
+  .inputArea{
+	padding: 9px;
+	width: 300px;
+	margin-bottom: 5px;
+	border: 2px solid grey;
+	border-radius: 4px;
+	outline: none;
+  }
+
+.inputAreaAlert {
+	border: 2px solid crimson;
+	border-radius: 4px;
+	box-shadow: inset 0px 0px 4px #dc143cb3;
+}
+
+.footy {
+	color: white;
+	background: crimson;
+	padding: 6px;
+	text-decoration: none;
+	border-radius: 6px;
+	border-top: 3px solid #e84465;
+	border-bottom: 3px solid #aa112f;
+	margin-bottom: 6px;
+	padding-left: 18px;
+	padding-right: 18px;
+	font-size: 11px;
+	box-shadow: 0px 5px 9px #00000036;
+}
